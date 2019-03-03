@@ -1,4 +1,5 @@
-def fizzbuzz(3)
+def fizzbuzz(x)
+  if 
 
 end 
 
