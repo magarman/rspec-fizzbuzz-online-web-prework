@@ -1,8 +1,6 @@
 def fizzbuzz(integer)
-  if (integer % 3)
+  if (integer % 3 == 0) 
     return "fizz"
-    elsif 
-
 end 
 
 # Don't forget! This file needs to be 'required' in its spec file
