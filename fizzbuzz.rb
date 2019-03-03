@@ -1,6 +1,7 @@
 def fizzbuzz(integer)
   if (integer % 3 == 0) 
     return "fizz"
+  end
 end 
 
 # Don't forget! This file needs to be 'required' in its spec file
