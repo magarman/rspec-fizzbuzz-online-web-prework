@@ -1,5 +1,5 @@
 def fizzbuzz(1..25)
-  if 
+  if (rand 1..25)
 
 end 
 
