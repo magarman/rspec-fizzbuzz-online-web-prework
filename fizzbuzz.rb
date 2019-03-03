@@ -1,11 +1,11 @@
 def fizzbuzz(integer)
-  if (integer % 3 == 0) 
+  if (integer % 3 == 0 && integer % 5 == 0)
+    return "FizzBuzz"
+    elsif (integer % 3 == 0) 
     return "Fizz"
     elsif (integer % 5 == 0)
     return "Buzz"
-    elsif (integer % 3 == 0 && integer % 5 == 0)
-    return "FizzBuzz"
-  end
+  end 
 end 
 
 # Don't forget! This file needs to be 'required' in its spec file
